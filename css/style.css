@@ -1,0 +1,377 @@
+*{margin:0px;padding:0px;}
+.cleaner{clear:both;}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+  ;
+  
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+}
+header a{
+	
+	color:#0096c7;
+	font-family:Trebuchet MS;
+	-webkit-text-fill-color:transparent;
+	-webkit-text-stroke:1px;
+	
+}
+/* HEADER */
+header{
+	
+	position:relative;
+	background-color:#f8f9fa;
+	padding:15px 0px;
+	box-shadow: 5px 7px 18px #000;
+	animation:dole 1s;
+	z-index:1;
+}
+#logo{
+	
+	float:left;
+	margin-left:100px;
+	
+}
+#logo a{
+	font-size:32px;
+	-webkit-text-stroke:1px;
+	
+}
+#logo img{
+	height:40px;
+	width:40px;
+	float:left;
+	
+}
+
+#logo :hover{
+	color:#023e8a;
+	-webkit-text-fill-color:#023e8a;
+	
+}
+nav{
+	text-align:right;	
+	margin-right:30px;
+	margin-top:3px;
+}
+nav ul li{
+	display:inline;	
+	text-align:right;
+	margin-right:16px;
+	font-size:24px;
+	
+	
+}
+.active, nav ul li a:hover{
+	
+	color:#023e8a;
+	-webkit-text-fill-color:#023e8a;
+	-webkit-text-stroke:1px;
+	animation:fadein 0.5s;
+}
+/* MAIN BODY */
+body{
+	font-family:Trebuchet MS;
+	
+	
+}
+#cover{
+	
+	height:550px;
+	background-image: url("../img/cover-image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+	z-index:0;
+	padding:150px;
+	/* animation:gore 1s; */
+}
+#glavni-naslov{
+	width:40%;
+	margin:0px auto;
+	animation:naslovfade 2s;
+}
+#glavni-naslov h1{
+	text-shadow: 4px 2px #10002b;
+	font-size:60px;
+	text-align:center;
+	color:#edf2f4;
+	
+}
+#glavni-naslov h2{
+	text-align:center;
+	color:#edf2f4;
+	text-shadow: 2px 2px #10002b;
+}
+#sharkhistory{
+	position:relative;	
+	height:600px;
+	z-index:2;
+}
+
+.Margin{	
+	margin:0px 100px;	
+	margin-top:20px;
+}
+.podnaslov h2{
+	text-align:center;
+	color:#0077b6;
+	font-size:34px;
+	border-bottom:solid #e9ecef;	
+}
+.podnaslov span{
+	text-shadow: 2px 2px 3px #000;
+}
+#sharkhistory-kontent{
+	position:relative;
+	margin-top:20px;
+	width:100%;	
+}
+#slika{
+	width:50%;
+	float:left;
+}
+#slika img{
+	width:100%;
+	border-radius:40px;
+	box-shadow: 2px 2px 20px  #000;
+}
+#pasus{
+	width:40%;
+	float:right;
+}
+
+#pasus p{
+	font-size:24px;
+	margin-bottom:8px;
+	text-align:justify;
+}
+#pasus a{
+	font-size:26px;
+}
+
+#pasus a:hover{
+	text-decoration:underline;
+}
+#tree{
+	font-weight:bold;
+	text-decoration:underline;
+	
+}
+#button{
+	height:22px;
+	position:absolute;
+	padding:3px 3px;
+	background-color:#023e8a;
+	border-radius:10px;
+	float:right;
+	bottom:25px;
+	right:87px;
+	box-shadow: 5px 5px 8px #000;
+}
+#button a{
+	color:#fff;
+	font-size:20px;
+}
+#button :hover{
+	background-color:#03045e;		
+}
+/* Meet The Sharks */
+#ajkule{
+	height:300px;
+	
+}
+#h2{
+	text-align:center;
+	color:#0096c7;
+}
+.krugovi{
+	display:inline;
+	
+}
+.krugovi img{
+	
+	box-shadow: 5px 5px 8px #000;
+	margin-top:8px;
+	width:15%;
+	border-radius:150px;
+	margin-right:17.9px;
+	height:150px;;
+	
+}
+.ajkula-opis{
+	display:none;
+}
+.krugovi img:hover .ajkula-opis{
+	display:block;
+	position:absolute;
+}
+/* FOOTER */
+footer{
+	position:relative;
+	
+	background-color:#000;
+	box-shadow: 5px 7px 18px #000;                               
+	z-index:4;
+	background-image: url("../img/cover-image.jpg");
+    background-size: cover;
+    background-attachment: fixed;	
+}
+footer a{
+	display:inline;
+	color:#edf2f4;
+	-webkit-text-fill-color:transparent;
+	-webkit-text-stroke:1px;
+}
+#logo2{
+	text-align:center;
+	
+	
+}
+#logo2 a{		
+	font-size:32px;	
+	text-align:center;
+}
+#kontaki{
+	width:30%;
+	float:left;
+}
+.kontakt{
+	font-size:24px;
+	
+}
+.kontaki span{
+	
+}
+#social{
+	margin-top:20px;
+	margin-left:30.9%;
+	width:40%;
+}
+.social-kontent{
+	text-align:center;
+	
+}
+.social-kontent a span{
+	margin-right:16px;
+	font-size:24px;
+}
+#shortcuts{
+	position:absolute;
+	right:100px;
+	bottom:5px;
+	float:right;
+}
+.shortcuts-kontent li a{
+	font-size:24px;
+}
+footer a:hover{
+	-webkit-text-fill-color:#edf2f4;
+}
+/* ABOUT STRANICA */
+.about-Margin{
+	margin:0px 290px;;
+}
+#about{
+	height:600px;
+	
+}
+#about-naslov{
+	margin-top:20px;
+	text-align:center;
+	color:blue;
+	text-shadow:2px 2px grey;
+}
+#about-kontent{
+	margin-top:20px;
+	width:100%;
+}
+#about-slika{
+	animation:naslovfade 0s;
+	margin-left:50px;
+}
+#about-slika img{ 
+	width:40%;
+	height:500px;
+	border-radius:20px;
+	box-shadow:5px 5px 10px #000;
+	float:left;
+}
+.about-h2{
+	margin-top:20px;
+	border-bottom:solid ;
+}
+.about-h2 h2{	
+	display:inline;
+	font-size:28px;
+}
+#about span{
+	font-size:32px;
+	color:blue;
+	margin-right:8px;
+}
+#about-pasus{
+	width:32%;
+	float:right;
+	margin-right:200px;
+	animation:desno 0s;
+}
+#about-Description{
+	margin-top:10px;
+}
+#desc-h2{
+	margin-top:1px;
+	border-radius:5px;
+	box-shadow:2px 2px 10px #000;
+}
+#desc-h2 h2{
+	font-size:26.5px;
+	
+}
+/* ANIMACIJE */
+@keyframes fadein{
+	0% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}	
+@keyframes dole{
+	0% {
+		transform: translate(0px, -150px);
+	}
+	100% {W
+		transform: translate(0px, 0px);
+	}
+}
+@keyframes desno{
+	0% {
+		transform: translate(1000px, 0px);
+	}
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
+@keyframes naslovfade{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes underline{
+	0% {
+		text-decoration:none;
+	}
+	100% {
+		text-decoration:underline;
+	}
+}
