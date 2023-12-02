@@ -76,6 +76,12 @@ nav ul li{
 	-webkit-text-stroke:1px;
 	animation:fadein 0.5s;
 }
+.submenu{
+	display:none;
+}
+#gas li:hover .submenu{
+	display:block;
+}
 /* MAIN BODY */
 body{
 	font-family:Trebuchet MS;
@@ -110,6 +116,7 @@ body{
 	text-shadow: 2px 2px #10002b;
 }
 #sharkhistory{
+	
 	position:relative;	
 	height:600px;
 	z-index:2;
@@ -148,6 +155,7 @@ body{
 }
 
 #pasus p{
+	word-spacing:-3px;
 	font-size:24px;
 	margin-bottom:8px;
 	text-align:justify;
@@ -172,7 +180,7 @@ body{
 	border-radius:10px;
 	float:right;
 	bottom:25px;
-	right:87px;
+	right:167px;
 	box-shadow: 5px 5px 8px #000;
 }
 #button a{
@@ -185,7 +193,6 @@ body{
 /* Meet The Sharks */
 #ajkule{
 	height:300px;
-	
 }
 #h2{
 	text-align:center;
@@ -193,16 +200,14 @@ body{
 }
 .krugovi{
 	display:inline;
-	
 }
 .krugovi img{
-	
 	box-shadow: 5px 5px 8px #000;
 	margin-top:8px;
 	width:15%;
 	border-radius:150px;
 	margin-right:17.9px;
-	height:150px;;
+	height:150px;
 	
 }
 .ajkula-opis{
@@ -274,6 +279,12 @@ footer a{
 footer a:hover{
 	-webkit-text-fill-color:#edf2f4;
 }
+#copyright{
+	margin-top:25px;
+	text-align:center;
+	font-size:15px;
+	color:#edf2f4;
+}
 /* ABOUT STRANICA */
 .about-Margin{
 	margin:0px 290px;;
@@ -285,8 +296,9 @@ footer a:hover{
 #about-naslov{
 	margin-top:20px;
 	text-align:center;
-	color:blue;
+	color:#0077b6;	
 	text-shadow:2px 2px grey;
+	text-shadow: 2px 2px 3px #000;
 }
 #about-kontent{
 	margin-top:20px;
@@ -305,7 +317,7 @@ footer a:hover{
 }
 .about-h2{
 	margin-top:12px;
-	border-bottom:solid ;
+	border-bottom: solid rgba(233, 236, 239,0.5);
 }
 .about-h2 h2{	
 	display:inline;
@@ -313,8 +325,9 @@ footer a:hover{
 }
 #about span{
 	font-size:32px;
-	color:blue;
+	color:#0077b6;
 	margin-right:8px;
+	text-shadow:2px 2px #000;
 }
 #about-pasus{
 	width:32%;
@@ -334,6 +347,259 @@ footer a:hover{
 	font-size:26.5px;
 	
 }
+/* EXPORE */
+#choose{
+	height:500px;
+	
+}
+.Margin-choose{
+	margin:0px 300px;
+	position:relative;
+	
+}
+#choose-kontent-1{
+	margin-top:10px;
+	position:absolute;
+	height:400px;
+	width:30%;
+	background-image:url("../img/sharks.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	border-radius:20px;
+	box-shadow:2px 2px 8px #000;
+	transition: width 2s;
+	
+}
+#choose-kontent-2{
+	margin-top:10px;
+	position:absolute;
+	left:35%;
+	height:400px;
+	width:30%;
+	background-image:url("../img/shark-museum.jpeg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	border-radius:20px;
+	box-shadow:2px 2px 8px #000;
+	transition: width 2s;
+	
+}
+#choose-kontent-3{
+	margin-top:10px;
+	position:absolute;
+	left:70%;
+	height:400px;
+	width:30%;
+	background-image:url("../img/gallery.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	border-radius:20px;
+	box-shadow:2px 2px 8px #000;
+	
+	
+}
+.chooseh2 {
+	text-align:center;
+	opacity:0;
+}
+
+
+#choose-kontent-1:hover .chooseh2,#choose-kontent-2:hover .chooseh2,#choose-kontent-3:hover .chooseh2{	
+	opacity:1;
+	color:#f8f9fa;
+	text-shadow:2px 2px 2px #000;
+	
+}
+#choose-kontent-1:hover,#choose-kontent-2:hover,#choose-kontent-3:hover,#choose-kontent-4:hover,#choose-kontent-5:hover,#choose-kontent-6:hover,#choose-kontent-7:hover,#choose-kontent-8:hover,#choose-kontent-9:hover{
+	height:450px;
+	
+}
+.choose-img img{
+	opacity:0;
+	height:390px;
+	width:300px;
+}
+/* Shark history str */
+#sharkhistory2{
+	position:relative;	
+	height:500px;
+	z-index:2;
+}
+
+.Margin2{	
+	margin:0px 100px;	
+	margin-top:0px;
+}
+.podnaslov h2{
+	text-align:center;
+	color:#0077b6;
+	font-size:34px;
+	border-bottom:solid #e9ecef;	
+}
+.podnaslov span{
+	text-shadow: 2px 2px 3px #000;
+}
+
+#slika2{
+	width:40%;
+	float:right;
+}
+#slika2 img{
+	width:100%;
+	border-radius:40px;
+	box-shadow: 2px 2px 20px  #000;
+}
+#pasus2{
+	width:50%;
+	float:left;
+}
+
+#pasus2 p{
+	word-spacing:0.5px;
+	font-size:24px;
+	margin-bottom:8px;
+	text-align:justify;
+}
+#pasus2 a:hover{
+	text-decoration:underline;
+}
+#sharkhistory3{
+	position:relative;	
+	height:400px;
+	z-index:2;
+}
+#sharkhistory5{
+	position:relative;	
+	height:700px;
+	z-index:2;
+}
+/* SHARKS */
+.chooseh2-2{	
+	opacity:0;	
+}
+.chooseh2-2 h2{
+	text-align:center;
+}
+#choose-kontent-4:hover .chooseh2-2,#choose-kontent-5:hover .chooseh2-2,#choose-kontent-6:hover .chooseh2-2,#choose-kontent-7:hover .chooseh2-2,#choose-kontent-8:hover .chooseh2-2,#choose-kontent-9:hover .chooseh2-2{	
+	opacity:1;
+	color:#f8f9fa;
+	text-shadow:2px 2px 2px #000;
+	
+}
+#choose-kontent-4{
+	margin-top:10px;
+	position:absolute;
+	height:400px;
+	width:30%;
+	background-image:url("../img/great-white-shark.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	border-radius:20px;
+	box-shadow:2px 2px 8px #000;
+	transition: width 2s;
+}
+#choose-kontent-5{
+	margin-top:10px;
+	position:absolute;
+	left:35%;
+	height:400px;
+	width:30%;
+	background-image:url("../img/whale-shark.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	border-radius:20px;
+	box-shadow:2px 2px 8px #000;
+	transition: width 2s;
+}
+#choose-kontent-6{
+	margin-top:10px;
+	position:absolute;
+	left:70%;
+	height:400px;
+	width:30%;
+	background-image:url("../img/lemon-shark.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	border-radius:20px;
+	box-shadow:2px 2px 8px #000;
+}
+#choose-kontent-7{
+	margin-top:10px;
+	position:absolute;
+	height:400px;
+	width:30%;
+	background-image:url("../img/great-white-shark.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	border-radius:20px;
+	box-shadow:2px 2px 8px #000;
+	transition: width 2s;
+}
+#choose-kontent-8{
+	margin-top:10px;
+	position:absolute;
+	left:35%;
+	height:400px;
+	width:30%;
+	background-image:url("../img/whale-shark.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	border-radius:20px;
+	box-shadow:2px 2px 8px #000;
+	transition: width 2s;
+}
+#choose-kontent-9{
+	margin-top:10px;
+	position:absolute;
+	left:70%;
+	height:400px;
+	width:30%;
+	background-image:url("../img/lemon-shark.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	border-radius:20px;
+	box-shadow:2px 2px 8px #000;
+}
+#choose2{
+	height:600px;
+}
+.Margin3{
+	margin:0px 100px;	
+	margin-top:20px;
+	margin-left:525px
+}
+.krugovi2{
+	display:inline;
+	
+}
+.krugovi2 img{
+	box-shadow: 5px 5px 8px #000;
+	margin-top:8px;
+	width:15%;
+	border-radius:30px;
+	margin-right:17.9px;
+	height:150px;
+}
+.krugovi3{
+	display:inline;
+	
+}
+.krugovi3 img{
+	box-shadow: 5px 5px 8px #000;
+	margin-top:8px;
+	width:15%;
+	border-radius:60px;
+	margin-right:17.9px;
+	height:150px;
+}
 /* ANIMACIJE */
 @keyframes fadein{
 	0% {
@@ -343,6 +609,7 @@ footer a:hover{
 		opacity: 1;
 	}
 }	
+
 @keyframes dole{
 	0% {
 		transform: translate(0px, -150px);
@@ -367,11 +634,13 @@ footer a:hover{
 		opacity: 1;
 	}
 }
-@keyframes underline{
+@keyframes uvecanje{
 	0% {
-		text-decoration:none;
+		height:300px;
+		width:300px;
 	}
 	100% {
-		text-decoration:underline;
+		height:600px;
+		width:600px;
 	}
 }
