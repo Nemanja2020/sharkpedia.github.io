@@ -1,52 +1,40 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<channel>
-		<title>SHARKPEDIA</title>
-		<link><![CDATA[https://nemanja2020.github.io]]></link>
-		<description>You can find here all about sharks</description>
-		<language>en</language>
-		<pubDate>Sat, 02 Dec 2023 21:31:35 +0000</pubDate>
-		<generator>MySitemapGenerator (www.mysitemapgenerator.com)</generator>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
 
-		<item>
-			<guid isPermaLink="false">3719517579</guid>
-			<title>SHARKPEDIA</title>
-			<link>https://nemanja2020.github.io/sharkpedia.github.io/sharkhistory.html</link>
-			<dc:creator>Administrator</dc:creator>
-			<category>Site News</category>
-			<description>You can find here all about sharks</description>
-			<pubDate>Sat, 02 Dec 2023 07:43:04 GMT</pubDate>
-			<enclosure url="https://nemanja2020.github.io/sharkpedia.github.io/assets/img/greenland.jpg" type="image/jpeg" length="0" />
-		</item>
-		<item>
-			<guid isPermaLink="false">3629527970</guid>
-			<title>SHARKPEDIA</title>
-			<link>https://nemanja2020.github.io/sharkpedia.github.io/explore.html</link>
-			<dc:creator>Administrator</dc:creator>
-			<category>Site News</category>
-			<description>You can find here all about sharks</description>
-			<pubDate>Sat, 02 Dec 2023 07:43:04 GMT</pubDate>
-			<enclosure url="https://nemanja2020.github.io/sharkpedia.github.io/assets/img/about-slika.jpg" type="image/jpeg" length="0" />
-		</item>
-		<item>
-			<guid isPermaLink="false">1395943718</guid>
-			<title>SHARKPEDIA</title>
-			<link>https://nemanja2020.github.io/sharkpedia.github.io/index.html</link>
-			<dc:creator>Administrator</dc:creator>
-			<category>Site News</category>
-			<description>You can find here all about sharks</description>
-			<pubDate>Sat, 02 Dec 2023 07:43:04 GMT</pubDate>
-		</item>
-		<item>
-			<guid isPermaLink="false">3763990970</guid>
-			<title>SHARKPEDIA</title>
-			<link>https://nemanja2020.github.io/sharkpedia.github.io/about.html</link>
-			<dc:creator>Administrator</dc:creator>
-			<category>Site News</category>
-			<description>You can find here all about sharks</description>
-			<pubDate>Sat, 02 Dec 2023 07:43:04 GMT</pubDate>
-			<enclosure url="https://nemanja2020.github.io/sharkpedia.github.io/assets/img/about-slika.jpg" type="image/jpeg" length="0" />
-		</item>
-	</channel>
+<channel>
+  <title>SHARKPEDIA</title>
+  <link>https://nemanja2020.github.io/sharkpedia.github.io/</link>
+  <description>You can find here all about sharks</description>
+  <language>en-us</language>
+  <image>
+	<title>SHARKPEDIA</title>
+	<url>assets/img/shark.png</url>
+	<link>https://nemanja2020.github.io/sharkpedia.github.io/</link>
+  </image>
+  <item>
+	<title>WHAT IS A SHARK?</title>
+	<link>https://nemanja2020.github.io/sharkpedia.github.io/sharkhistory.html</link>
+	<description>History about sharks and why are they important for ecosystem.</description>
+  </item>
+  <item>
+	<title>Meet The Sharks</title>
+	<link>https://nemanja2020.github.io/sharkpedia.github.io/meet-the-sharks.html</link>
+	<description>Here you can find most popular sharks
+
+						Where do they live?
+
+								and
+
+						What do they eat?
+
+</description>
+  </item>
+  <item>
+	<title>Gallery</title>
+	<link>https://nemanja2020.github.io/sharkpedia.github.io/gallery.html</link>
+	<description>Here you can find all photos used in this site.</description>
+  </item>
+  
+</channel>
+
 </rss>

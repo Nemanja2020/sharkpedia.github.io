@@ -130,9 +130,7 @@ body{
 	text-align:center;
 	color:#0077b6;
 	font-size:34px;
-	border-bottom:solid #e9ecef;	
-}
-.podnaslov span{
+	border-bottom:solid #e9ecef;
 	text-shadow: 2px 2px 3px #000;
 }
 #sharkhistory-kontent{
@@ -190,6 +188,23 @@ body{
 #button :hover{
 	background-color:#03045e;		
 }
+#button2{
+	margin-top:25px;
+	height:22px;
+	position:absolute;
+	padding:3px 3px;
+	background-color:#023e8a;
+	border-radius:10px;
+	left:682px;	
+	box-shadow: 5px 5px 8px #000;
+}
+#button2 a{
+	color:#fff;
+	font-size:20px;
+}
+#button2 :hover{
+	background-color:#03045e;		
+}
 /* Meet The Sharks */
 #ajkule{
 	height:300px;
@@ -210,13 +225,7 @@ body{
 	height:150px;
 	
 }
-.ajkula-opis{
-	display:none;
-}
-.krugovi img:hover .ajkula-opis{
-	display:block;
-	position:absolute;
-}
+
 /* FOOTER */
 footer{
 	position:relative;
@@ -284,6 +293,37 @@ footer a:hover{
 	text-align:center;
 	font-size:15px;
 	color:#edf2f4;
+}
+/* ABOUT EXPLORE */
+#choose-kontent-10{
+	margin-top:10px;
+	left:19%;
+	position:absolute;
+	height:400px;
+	width:30%;
+	background-image:url("../img/about-us.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	border-radius:20px;
+	box-shadow:2px 2px 8px #000;
+	transition: width 2s;
+	
+}
+#choose-kontent-11{
+	margin-top:10px;
+	position:absolute;
+	left:51%;
+	height:400px;
+	width:30%;
+	background-image:url("../img/about-slika.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	border-radius:20px;
+	box-shadow:2px 2px 8px #000;
+	transition: width 2s;
+	
 }
 /* ABOUT STRANICA */
 .about-Margin{
@@ -406,13 +446,13 @@ footer a:hover{
 }
 
 
-#choose-kontent-1:hover .chooseh2,#choose-kontent-2:hover .chooseh2,#choose-kontent-3:hover .chooseh2{	
+#choose-kontent-1:hover .chooseh2,#choose-kontent-2:hover .chooseh2,#choose-kontent-3:hover .chooseh2,#choose-kontent-10:hover .chooseh2,#choose-kontent-11:hover .chooseh2{	
 	opacity:1;
 	color:#f8f9fa;
 	text-shadow:2px 2px 2px #000;
 	
 }
-#choose-kontent-1:hover,#choose-kontent-2:hover,#choose-kontent-3:hover,#choose-kontent-4:hover,#choose-kontent-5:hover,#choose-kontent-6:hover,#choose-kontent-7:hover,#choose-kontent-8:hover,#choose-kontent-9:hover{
+#choose-kontent-1:hover,#choose-kontent-2:hover,#choose-kontent-3:hover,#choose-kontent-4:hover,#choose-kontent-5:hover,#choose-kontent-6:hover,#choose-kontent-7:hover,#choose-kontent-8:hover,#choose-kontent-9:hover,#choose-kontent-10:hover,#choose-kontent-11:hover{
 	height:450px;
 	
 }
@@ -476,6 +516,13 @@ footer a:hover{
 	z-index:2;
 }
 /* SHARKS */
+
+#meet-cover{
+	background-image:url("../img/wata.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+}
+
 .chooseh2-2{	
 	opacity:0;	
 }
@@ -533,7 +580,7 @@ footer a:hover{
 	position:absolute;
 	height:400px;
 	width:30%;
-	background-image:url("../img/great-white-shark.jpg");
+	background-image:url("../img/hammerhead.jpg");
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover;
@@ -547,7 +594,7 @@ footer a:hover{
 	left:35%;
 	height:400px;
 	width:30%;
-	background-image:url("../img/whale-shark.jpg");
+	background-image:url("../img/tiger-shark.jpg");
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover;
@@ -561,7 +608,7 @@ footer a:hover{
 	left:70%;
 	height:400px;
 	width:30%;
-	background-image:url("../img/lemon-shark.jpg");
+	background-image:url("../img/bull.jfif");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;
@@ -569,6 +616,9 @@ footer a:hover{
 	box-shadow:2px 2px 8px #000;
 }
 #choose2{
+	height:450px;
+}
+#choose3{
 	height:600px;
 }
 .Margin3{
@@ -599,6 +649,21 @@ footer a:hover{
 	border-radius:60px;
 	margin-right:17.9px;
 	height:150px;
+}
+.Contact-kontent{
+	margin:20px auto;
+	width:300px;
+	height:500px;
+	background-color:grey;
+	padding:5px 5px;
+}
+.Contact-kontent{
+	text-align:center;
+}
+#about-us{
+	position:relative;	
+	height:600px;
+	z-index:2;
 }
 /* ANIMACIJE */
 @keyframes fadein{
