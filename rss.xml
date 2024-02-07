@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>SHARKPEDIA</title>
+  <link>https://nemanja2020.github.io/sharkpedia.github.io/</link>
+  <description>You can find here all about sharks</description>
+  <language>en-us</language>
+  <image>
+	<title>SHARKPEDIA</title>
+	<url>assets/img/shark.png</url>
+	<link>https://nemanja2020.github.io/sharkpedia.github.io/</link>
+  </image>
+  <item>
+	<title>WHAT IS A SHARK?</title>
+	<link>https://nemanja2020.github.io/sharkpedia.github.io/sharkhistory.html</link>
+	<description>History about sharks and why are they important for ecosystem.</description>
+  </item>
+  <item>
+	<title>Meet The Sharks</title>
+	<link>https://nemanja2020.github.io/sharkpedia.github.io/meet-the-sharks.html</link>
+	<description>Here you can find most popular sharks
+
+						Where do they live?
+
+								and
+
+						What do they eat?
+
+</description>
+  </item>
+  <item>
+	<title>Gallery</title>
+	<link>https://nemanja2020.github.io/sharkpedia.github.io/gallery.html</link>
+	<description>Here you can find all photos used in this site.</description>
+  </item>
+  
+</channel>
+
+</rss>
