@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Rubik+Doodle+Shadow&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+*{margin:0px;padding:0px;}
+
+	a{
+		text-decoration:none;
+	}
+.rubik-doodle-shadow-regular {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav ul a li:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+ul li{
+	list-style-type:none;
+}
+header{
+	position:relative;
+	width:100%;
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 17vh;
+	box-shadow: 0px 30px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+	animation:down 2s;
+}
+nav ul {
+	display:flex;
+	
+}
+nav{
+	
+}
+nav ul li{
+	margin-right:36px;
+	font-size:24px;
+	color:black;
+	font-family:Poppins;
+}
+#logo{
+	font-size:32px;
+	font-family:Rubik Doodle Shadow;
+}
+#cover1{
+	width:75%;
+	display:flex;
+	justify-content:space-evenly;
+	margin:0px auto;
+	padding-top:100px;
+	text-align:center;
+}
+#porfolio{
+	border-radius:50px;
+}
+#text{
+	margin:auto 0px;
+	font-family:Poppins;
+}
+}
+#hi{
+	font-weight:900;
+	color:grey;
+	font-size:60px;
+}
+#text h3{
+	margin-top:15px;
+	margin-bottom:15px;
+	font-weight:500;
+	font-size:42px;
+}#text h4{
+	font-size:32px;
+	font-family:Rubik Doodle Shadow;
+}
+#dugme{
+	
+	
+	
+	padding:10px 20px;
+}
+#dugme1{
+	
+	border-radius:20px;
+	margin:0px auto;
+	margin-top:25px;
+	width:30%;
+	border:solid 0.1rem;
+}
+#dugme:hover{
+	
+	background-color:black;
+	border-radius:17px;
+	color:white;
+}
+.titles{
+	
+	text-align:center;
+	font-size:32px;
+font-family:Poppins;}
+.subtitle{
+	margin-top:75px;
+text-align:center;
+font-size:15px;
+color:grey;
+font-family:Poppins;
+}
+#cover2{
+	margin:0px auto;
+	margin-top:70px;
+	width:75%;
+	display:flex;
+	justify-content:space-evenly;
+	
+}
+#porfolio2{
+	border-radius:20px;
+	width:30%;
+}
+
+#box{
+	display:flex;
+	justify-content:space-evenly;
+	
+}
+.exp_education{
+	
+	text-align:center;
+	margin-left:30px;
+	height:200px;
+	width:350px;
+	border:solid;
+	border-radius: 2rem;
+	border: rgb(53, 53, 53) 0.1rem solid;
+	border-color: rgb(163, 163, 163);
+	font-family:Poppins;
+	
+}
+.exp_education h6{
+	font-size:24px;
+	margin-top:8px;
+}
+.exp_education p{
+	
+	font-size:18px;
+	color:grey;
+}
+#subcover{
+	padding:60px 0px;
+}
+.text{
+	margin:30px;
+}
+.fa-briefcase,.fa-book-open{
+	font-size:32px;
+}
+#abouttext{
+	text-align:justify;
+	font-size:22px;
+	color:grey;
+	margin-left:30px;
+	margin-top:30px;
+	
+}
+#cover3{
+	margin:0px auto;
+	margin-top:70px;
+	height:300px;
+	width:550px;
+	border-radius: 2rem;
+	border: rgb(53, 53, 53) 0.1rem solid;
+	border-color: rgb(163, 163, 163);
+	font-family:Poppins;
+	
+}
+.fa-html5,.fa-css3-alt,.fa-less,.fa-js{
+	font-size:28px;
+}
+.Experiencebox{
+	
+	text-align:justify;
+}
+#exp1{
+	margin-top:50px;
+	display:flex;
+	justify-content:space-evenly;
+}
+#exp2{
+	margin-top:100px;
+	display:flex;
+	justify-content:space-evenly;
+}
+.iconstext p{
+	text-align:center;
+	color:grey;	
+	font-size:19px;
+}
+.expspan{
+	margin-left:10px;
+}
+#cover4{
+	display:flex;
+	justify-content:space-evenly;
+	margin-top:70px;
+}
+.projectbox{
+	background-color:#f2f2f2;
+	height:400px;
+	width:300px;
+	border-radius: 2rem;
+	border: rgb(53, 53, 53) 0.1rem solid;
+	border-color: rgb(163, 163, 163);
+	font-family:Poppins;
+	text-align:center;
+}
+.projectbox h3{
+	font-size:26px;
+}
+#backimg{
+	background-image: url("../img/sharkpedia.jpg");
+	width:250px;
+	height:200px;
+	background-size:cover;
+	background-position:center;
+	border-radius: 2rem;
+	margin:20px auto;
+}
+#backimg2{
+	background-image: url("../img/sobe.jpg");
+	width:250px;
+	height:200px;
+	background-size:cover;
+	background-position:center;
+	border-radius: 2rem;
+	margin:20px auto;
+}
+#backimg3{
+	background-image: url("../img/fittness.jpg");
+	width:250px;
+	height:200px;
+	background-size:cover;
+	background-position:center;
+	border-radius: 2rem;
+	margin:20px auto;
+}
+.dugme2{
+	
+	
+	
+	
+}
+.dugme1{
+	padding:10px 20px;
+	border-radius:20px;
+	margin:0px auto;
+	margin-top:25px;
+	width:30%;
+	border:solid 0.1rem;
+	border-color: black;
+}
+.dugme2 a{
+	color:black;
+	
+}
+.dugme1 p{
+	font-size:25px;
+}
+.dugme1:hover{
+	
+	background-color:black;
+	border-radius:17px;
+	color:white;
+}
+#cover5{
+	margin-top:70px;
+	margin-bottom:70px;
+}
+#email{
+	margin:0px auto;
+	width:25%;
+	padding:20px 20px;
+	border-radius: 2rem;
+	border: rgb(53, 53, 53) 0.1rem solid;
+	border-color: rgb(163, 163, 163);
+	font-family:Poppins;
+}
+#email a{
+	margin-left:8px;
+}
+.fa-envelope,#email a{
+	font-size:24px;
+	color:black;
+}
+#email a:hover{
+	color:grey;
+	text-decoration:underline;
+	
+}
+#social{
+	width:20%;
+	display:flex;
+	justify-content:space-evenly;
+	margin:0px auto;
+	margin-top:14px;
+}
+#social a{
+	color:black;
+	font-size:40px;
+}
+#social a:hover{
+	color:grey;
+	font-size:38px;
+}
+#nav2{
+	width:35%;
+	margin:0px auto;
+}
+#nav2 ul{
+	
+	display:flex;
+	font-family:Poppins;
+}
+#nav2 a{
+	color:black;
+}
+#nav2 li{
+	text-align:center;
+	font-size:22px;
+	margin-left:25px;
+}
+#nav2 a:hover{
+	color:gray;
+	text-decoration:underline;
+}
+footer{
+	text-align:center;
+	
+}
+footer p{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+@keyframes down{
+	0% {
+		transform: translate(0px, -150px);
+	}
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
